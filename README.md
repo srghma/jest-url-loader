@@ -1,8 +1,8 @@
 # jest-url-loader
 
 [![npm](https://img.shields.io/npm/v/jest-url-loader.svg)](https://www.npmjs.com/package/jest-url-loader)
-[![Build Status](https://travis-ci.org/keplersj/jest-url-loader.svg?branch=master)](https://travis-ci.org/keplersj/jest-url-loader)
-[![Code Coverage](https://codecov.io/gh/keplersj/jest-url-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/keplersj/jest-url-loader)
+[![Build Status](https://travis-ci.org/srghma/jest-url-loader.svg?branch=master)](https://travis-ci.org/srghma/jest-url-loader)
+[![Code Coverage](https://codecov.io/gh/srghma/jest-url-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/srghma/jest-url-loader)
 [![Code Style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 
