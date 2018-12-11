@@ -6,6 +6,6 @@ module.exports = {
 
     const content = `data:${mimetype || ''};base64,${src.toString('base64')}`
 
-    return "module.exports = " + JSON.stringify(content)
-  }
-};
+    return 'module.exports = ' + JSON.stringify(content)
+  },
+}

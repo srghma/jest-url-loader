@@ -9,18 +9,12 @@
   "private": false,
   "scripts": {
     "test": "jest",
+    "lint": "prettier --write './**/*.{js,jsx,json}'",
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --write",
-      "git add",
-      "jest --bail --findRelatedTests"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["prettier --write", "git add", "jest --bail --findRelatedTests"],
+    "*.json": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "husky": "^0.14.3",
