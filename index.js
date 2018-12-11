@@ -5,9 +5,11 @@ module.exports = {
   process: (src, filePath) => {
     const mimetype = getType(filePath)
 
-    const src_ = new Buffer(src);
+    const buffer = Buffer.from(str.toString(), 'binary');
 
-    const content = `data:${mimetype || ''};base64,${src_.toString('base64')}`
+    const encoded = buffer.toString('base64')
+
+    const content = `data:${mimetype || ''};base64,${encoded}`
 
     return 'module.exports = ' + JSON.stringify(content)
   },
