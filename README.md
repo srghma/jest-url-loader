@@ -1,5 +1,7 @@
 # jest-url-loader
 
+# UNMAINTAINED use https://github.com/dferber90/jest-transform-file instead
+
 [![npm](https://img.shields.io/npm/v/jest-url-loader.svg)](https://www.npmjs.com/package/jest-url-loader)
 [![Build Status](https://travis-ci.org/srghma/jest-url-loader.svg?branch=master)](https://travis-ci.org/srghma/jest-url-loader)
 [![Code Coverage](https://codecov.io/gh/srghma/jest-url-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/srghma/jest-url-loader)
